@@ -7,7 +7,9 @@ function Alert(props) {
 }
 
 export default function Success(props) {
-  <Snackbar open={props.open} autoHideDuration={6000}>
-    <Alert severity="error">{props.message}</Alert>
-  </Snackbar>;
+  return (
+    <Snackbar open={props.open} autoHideDuration={4000}>
+      <Alert severity="error">{props.message}</Alert>
+    </Snackbar>
+  );
 }

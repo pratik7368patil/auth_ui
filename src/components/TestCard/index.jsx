@@ -18,7 +18,7 @@ export default function TestCard(props) {
           component="img"
           alt={test.name}
           height="200"
-          image={test.imageUrl}
+          image={test.imageURL}
           title={test.name}
         />
         <CardContent>
@@ -31,7 +31,7 @@ export default function TestCard(props) {
                 <Box fontWeight="fontWeightBold">Test Id</Box>
               </Typography>
               <Typography color="primary" variant="h5" component="h2">
-                <Box fontWeight="fontWeightBold">{test.testId}</Box>
+                <Box fontWeight="fontWeightBold">{test.testCode}</Box>
               </Typography>
             </Box>
           </Box>
